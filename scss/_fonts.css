@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Butler';
+  src: url("../fonts/butler.woff2") format("woff2"), url("../fonts/butler.woff") format("woff");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Premier';
+  src: url("../fonts/premier.woff2") format("woff2"), url("../fonts/premier.woff") format("woff");
+  /* Legacy iOS */
+}

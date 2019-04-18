@@ -1,0 +1,44 @@
+@import "_variables";
+
+/* Colours */
+.bg-light {
+    background-color: $color-light;
+}
+
+.bg-light-alt {
+    background-color: $color-light-alt;
+}
+
+.bg-dark {
+    background-color: $color-dark;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.color-primary {
+    color: $color-primary;
+}
+
+.color-secondary {
+    color: $color-secondary;
+}
+
+.color-white {
+    color: #fff;
+}
+
+/* Spacing */
+.py-6 {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.pt-6 {
+    padding-top: 5rem;
+}
+
+.mb-6 {
+    margin-bottom: 5rem;
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24.167973"
+   height="12.870585"
+   viewBox="0 0 24.167973 12.870585"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="title-prefix.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>XOXO</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview13"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="5.68"
+     inkscape:cx="0.1030934"
+     inkscape:cy="6.4352926"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="XOXO" />
+  <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">XOXO</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="XOXO"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="translate(-24.896907,-0.06470744)">
+    <path
+       d="m 30.698268,5.0579794 4.534364,-4.53436385 0.0032,0.003222 0.0032,-0.003222 1.266998,1.26699775 -4.537585,4.5375855 4.537585,4.5375852 -1.266998,1.266998 -4.537585,-4.5375854 -4.537586,4.5375854 -1.266997,-1.266998 0.643163,-0.643163 -0.0032,-0.0032 L 29.43127,6.3249772 24.896907,1.7906133 26.163904,0.52361555 Z M 42.702943,0.06470744 49.06488,6.4266445 42.556232,12.935293 36.194295,6.5733555 Z m -0.02803,2.45934066 -4.021274,4.0212735 3.930631,3.9306304 4.021273,-4.0212737 z"
+       id="Combined-Shape-Copy"
+       inkscape:connector-curvature="0"
+       style="fill:#deb06f" />
+  </g>
+</svg>

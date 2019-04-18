@@ -1,0 +1,59 @@
+@import "_variables";
+@import "_mixins";
+
+.form-control {
+    background-color: #fff;
+    border: none;
+    @include border-radius(0);
+    border-bottom: solid 1px $color-light;
+    padding: .5rem 0;
+
+    &:focus {
+        border-bottom-color: $color-secondary;
+        box-shadow: none;
+    }
+}
+
+.form-group label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+
+    span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-transform: translateY(18px);
+        -ms-transform: translateY(18px);
+        transform: translateY(18px);
+        -webkit-transform-origin: top left;
+        -ms-transform-origin: top left;
+        transform-origin: top left;
+        font-size: 12px;
+        color: $color-primary;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-transition: all 200ms ease-in-out;
+        -o-transition: all 200ms ease-in-out;
+        transition: all 200ms ease-in-out;
+    }
+}
+
+.form-group input:focus + label span,
+.form-group input.filled + label span, 
+.form-group textarea.filled + label span,
+.form-group textarea:focus + label span {
+    @include transform(translateY(-5px) scale(0.8));
+}
+
+textarea.form-control {
+    min-height: 80px;
+}
