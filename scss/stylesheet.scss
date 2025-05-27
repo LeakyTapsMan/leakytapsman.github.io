@@ -128,3 +128,28 @@ header {
     background-position-x: 125%;
     background-repeat: no-repeat;
 }
+
+/* Footer */
+.footer {
+    .footer-content {
+        .contact-info {
+            margin-top: 15px;
+
+            p {
+                margin-bottom: 0.5rem; // Add some space between phone and email
+
+                a {
+                    color: $color-white;
+                    text-decoration: none;
+                    @include transition(color 150ms ease-in-out, text-decoration 150ms ease-in-out);
+
+                    &:hover,
+                    &:focus {
+                        color: $color-secondary;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
