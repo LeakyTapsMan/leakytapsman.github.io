@@ -172,13 +172,19 @@
 
     <footer class="footer bg-dark color-white py-6">
         <div class="container">
-          <a class="d-flex align-items-center" href="index.html">
-            <img src="images/logo.svg" class="img-fluid logo mr-3" alt="Premier Groundworks & Landscapes Ltd">
-            <h4 class="mb-0 color-white">
-              Premier Groundworks 
-              <span class="d-block color-secondary">&amp; Landscapes Ltd</span>
-            </h4>
-          </a>
+          <div class="footer-content d-flex flex-column align-items-center"> // Added a wrapper for flex layout
+            <a class="d-flex align-items-center mb-3" href="index.html"> // Added margin-bottom
+              <img src="images/logo-white.svg" class="img-fluid logo mr-3" alt="Premier Groundworks & Landscapes Ltd"> // Changed to logo-white.svg for better contrast
+              <h4 class="mb-0 color-white">
+                Premier Groundworks 
+                <span class="d-block color-secondary">&amp; Landscapes Ltd</span>
+              </h4>
+            </a>
+            <div class="contact-info text-center"> // Wrapper for contact info
+              <p class="mb-1"><a href="tel:01625617863" class="color-white">01625 617863</a></p>
+              <p class="mb-0"><a href="mailto:info@premiergroundworks.com" class="color-white">info@premiergroundworks.com</a></p>
+            </div>
+          </div>
         </div>
     </footer>
 
